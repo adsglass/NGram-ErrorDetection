@@ -68,9 +68,9 @@ Pickle
 
 ## License
 
-This project makes use of the [CLC FCE dataset](https://ilexir.co.uk/datasets/index.html), [Phrasfinder API](http://phrasefinder.io/about) and [Google Books NGram Viewer](https://books.google.com/ngrams/info), all of which have their own licences. 
+This project makes use of the [CLC FCE dataset](https://ilexir.co.uk/datasets/index.html), [Phrasfinder API](http://phrasefinder.io/about) and [Google Books NGram Viewer](https://books.google.com/ngrams/info), all of which are publically available. 
 
-Please click through to the links to get the full details of these licences.
+Please click through to the links to get the full details of their licences.
 
 ## References
 
