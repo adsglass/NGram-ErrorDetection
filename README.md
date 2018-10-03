@@ -40,20 +40,20 @@ The project consists of three iPython notebooks, a Python module and a number of
 You'll need to save the ErrorDetection.py module and iPython notebooks into the same folder:
 
 - **Error-Detection-Part-1-Data-wrangling** - taking the sentences / words from the exam scripts and querying through the API 
-Error-Detection-Part-2-feature-engineering - merging the data and creating the features
-Error-Detection-Part-3-EDA-and-modelling - exploring / visualising the data and then training / evaluating classifiers
-ErrorDetection.py - contains all custom functions required within the notebooks
-fce-public.train.original.tsv - the original FCE training dataset
-fce-public.test.original.tsv - original FCE test dataset
-fce_train_final.csv - FCE training set cleaned and with engineered features
-fce_test_final.csv - FCE test set cleaned and with engineered features
-fce_pos_train_final.csv - FCE training set cleaned and with POS tagged ngrams
-fce_pos_test_final.csv - FCE test set cleaned and with POS tagged ngrams
-```
+- **Error-Detection-Part-2-feature-engineering** - merging the data and creating the features
+- **Error-Detection-Part-3-EDA-and-modelling** - exploring / visualising the data and then training / evaluating classifiers
+- **ErrorDetection.py** - contains all custom functions required within the notebooks
+- **fce-public.train.original.tsv** - the original FCE training dataset
+- **fce-public.test.original.tsv** - original FCE test dataset
+- **fce_train_final.csv** - FCE training set cleaned and with engineered features
+- **fce_test_final.csv** - FCE test set cleaned and with engineered features
+- **fce_pos_train_final.csv** - FCE training set cleaned and with POS tagged ngrams
+- **fce_pos_test_final.csv** - FCE test set cleaned and with POS tagged ngrams
 
 ### Prerequisites
 
 To run the code, there are a number of dependencies. You may need to pip install the following:
+(NB: The project was developed using Python 3 on an Anaconda distribution.)
 
 ```
 Spacy
@@ -65,8 +65,6 @@ Matplotlib
 Seaborn
 Pickle
 ```
-
-The project was developed using Python 3 on an Anaconda distribution.
 
 ## License
 
