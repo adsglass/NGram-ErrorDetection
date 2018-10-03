@@ -1,4 +1,4 @@
-# Automated English language error detection using NGram probabilities
+# Automated English language error detection using NGram counts and probabilities
 
 **General Assembly Data Science Immersive - final Capstone Project** 
 
