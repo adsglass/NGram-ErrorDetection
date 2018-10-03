@@ -27,19 +27,14 @@ The project was built on the publically available Cmabridge Learner Corpus (CLC)
 
 The dataset was pre-divided into training (1141 scripts)and test sets (97 scripts). The scripts are separated first into tokens (words / punctuation) and then into sentences. Each token has a label classifying it as either correct 'c' or incorrect 'i'.
 
-See licence details in the section below.
-
-
 ### Phrasefinder API and the Google Books NGram Viewer
 
 [Phrasefinder API](http://phrasefinder.io/) is an open source search engine for accessing the Google Books NGram Viewer dataset without having to download fragments onto . 
 
 The [Google Books Ngrams](https://books.google.com/ngrams) dataset provides n-gram counts from a huge corpus of books scanned by Google using OCR.
 
-Please see licence details below.
 
-
-## Getting Started
+## Getting started
 
 The project consists of three iPython notebooks, a Python module and .
 
