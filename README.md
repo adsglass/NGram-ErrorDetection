@@ -1,4 +1,4 @@
-# Automated English language error detection using Google Books NGram dataset
+# Automated English language error detection using NGram probabilities
 
 **General Assembly Data Science Immersive - final Capstone Project** 
 
