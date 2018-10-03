@@ -35,12 +35,11 @@ The [Google Books Ngrams](https://books.google.com/ngrams) dataset provides n-gr
 
 ## Getting started
 
-The project consists of three iPython notebooks, a Python module and .
+The project consists of three iPython notebooks, a Python module and a number of CSV and TSV files.
 
 You'll need to save the ErrorDetection.py module and iPython notebooks into the same folder:
 
-```
-Error-Detection-Part-1-Data-wrangling - taking the sentences / words from the exam scripts and querying through the API 
+- **Error-Detection-Part-1-Data-wrangling** - taking the sentences / words from the exam scripts and querying through the API 
 Error-Detection-Part-2-feature-engineering - merging the data and creating the features
 Error-Detection-Part-3-EDA-and-modelling - exploring / visualising the data and then training / evaluating classifiers
 ErrorDetection.py - contains all custom functions required within the notebooks
