@@ -5,7 +5,7 @@
 The purpose of the project is to create a machine learning classifier to detect errors in English written by non-native speakers - in particular, by using ngram probabilities derived from the Google Books Ngram corpus. 
 
 
-## Why choose this topic?
+## Background and problem statement
 
 Automated error detection and correction has been studied for decades, yet commercially available editing software still performs quite poorly. Even state of the art apps like Grammarly still cannot detect obvious errors to native English speakers. This reflects not only the complexity of the problem, but also the ambiguity of language - reasonable people can disagree about language and there's not always a single right answer.
 
@@ -17,7 +17,6 @@ Moreover, I wanted to take a new slant on the problem. Most research covering th
 The availability of massive web-scale corpora of natural language, accessible on the fly (e.g. search engines, Google Books etc.), presents new opportunities for statistical approaches to error detection that don't require storing huge amounts of data on a machine. Some previous research has used web-scale ngrams in error correction and detection, but nothing I'm aware of that combines ngram probabilities with a classifier.
 
 Ultimately, the aim of the project is not to try and devise a standalone model. Rather, it is to look at a specific new approach to the problem that could potentially be incorporated within existing error detection / correction models or softwares to improve results.
-
 
 ## Project overview 
 
