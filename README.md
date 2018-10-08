@@ -1,4 +1,4 @@
-# Automated English language error detection using NGram counts and probabilities
+# English language error detection using NGram counts and probabilities
 
 **General Assembly Data Science Immersive - final Capstone Project** 
 
@@ -7,16 +7,16 @@ The purpose of the project is to create a machine learning classifier to detect 
 
 ## Background and problem statement
 
-Automated error detection and correction has been studied for decades, yet commercially available editing software still performs quite poorly. Even state of the art apps like Grammarly still cannot detect obvious errors to native English speakers. This reflects not only the complexity of the problem, but also the ambiguity of language - reasonable people can disagree about language and there's not always a single right answer.
+Automated error detection and correction has been studied for decades, yet commercially available editing software still performs quite poorly. Even state-of-the-art apps like Grammarly still can't detect many errors that are obvious to native English speakers (e.g. try typing the following into Grammarly: "It was a big disastrous!"). This reflects not only the complexity of the problem, but also the ambiguity of language - reasonable people can disagree about language. There's not always a single <i>correct</i> answer.
 
-Moreover, I wanted to take a new slant on the problem. Most research covering this topic generally has fallen into two categories that I diverge from with this project:
+The availability of massive web-scale corpora of natural language, accessible on the fly (e.g. search engines, Google Books etc.), presents new opportunities for statistical approaches to error detection that don't require storing huge amounts of data on a machine. Some previous research has used web-scale ngrams in error correction and detection, but nothing I'm aware of that uses ngram probabilities as features in a machine learning classifier.
+
+Most research covering this topic generally has fallen into two categories, which I diverge from in my project:
 
 - a focus on <i>error correction</i> as a single task, rather than separating out error detection
 - a focus on building / tuning models to correct <i>specific error types</i> rather than errors in general.
 
-The availability of massive web-scale corpora of natural language, accessible on the fly (e.g. search engines, Google Books etc.), presents new opportunities for statistical approaches to error detection that don't require storing huge amounts of data on a machine. Some previous research has used web-scale ngrams in error correction and detection, but nothing I'm aware of that combines ngram probabilities with a classifier.
-
-Ultimately, the aim of the project is not to try and devise a standalone model. Rather, it is to look at a specific new approach to the problem that could potentially be incorporated within existing error detection / correction models or softwares to improve results.
+Ultimately, the aim of the project is not to try and devise a standalone model. Rather, it's to take a new approach to one aspect of the problem - an approach that could potentially be incorporated within existing error detection / correction models to improve results.
 
 ## Project overview 
 
