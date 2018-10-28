@@ -1,4 +1,4 @@
-# English language error detection using NGram counts and probabilities from a web-scale corpus
+# English language error detection using NGram counts and probabilities from Google Books
 
 **General Assembly Data Science Immersive - final Capstone Project** 
 
