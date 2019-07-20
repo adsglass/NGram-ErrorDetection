@@ -13,7 +13,7 @@ The availability of massive web-scale corpora of natural language, accessible on
 
 Moreover, most research covering this topic generally falls into two categories - I aim to diverge from these in order to provide some original insight:
 
-- a focus on <i>error correction</i> as a single task, rather than separating out error detection
+- a focus on error correction as a single task, rather than separating out the error <i>detection</i> element.
 - a focus on building / tuning models to correct <i>specific error types</i> rather than errors in general.
 
 Ultimately, the aim of the project is not to try and devise a standalone error correction model. Rather, it's to take a new approach to one aspect of the problem - an approach that could potentially be incorporated within existing error detection / correction models to improve results.
@@ -22,9 +22,9 @@ Ultimately, the aim of the project is not to try and devise a standalone error c
 
 ### CLC FCE Dataset
 
-The project was built on the publically available Cambridge Learner Corpus (CLC) FCE Dataset made up of 1,244 written exam scripts taken from the Cambridge ESOL First Certificate in English (FCE) exam 2000-2001 (Yannakoudakis et al., 2011). The version used in this project was one adapted specifically for error detection purposes as developed by Rei & Yannakoudakis (2016). 
+The project was built on the publicly available Cambridge Learner Corpus (CLC) FCE Dataset made up of 1,244 written exam scripts taken from the Cambridge ESOL First Certificate in English (FCE) exam 2000-2001 (Yannakoudakis et al., 2011). The version used in this project was one adapted specifically for error detection purposes as developed by Rei & Yannakoudakis (2016). 
 
-The dataset was pre-divided into training (1141 scripts)and test sets (97 scripts). The scripts are separated first into tokens (words / punctuation) and then into sentences. Each token has a label classifying it as either correct 'c' or incorrect 'i'.
+The dataset was pre-divided into training (1141 scripts) and test sets (97 scripts). The scripts are separated first into tokens (words / punctuation) and then into sentences. Each token has a label classifying it as either correct 'c' or incorrect 'i'.
 
 ### Phrasefinder API and the Google Books NGram Viewer
 
